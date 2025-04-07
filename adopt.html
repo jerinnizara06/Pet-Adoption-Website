@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopt - Pet Adoption</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign-Up</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="adopt.html" class="active">Adopt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="adopt-section">
+        <h2>Adopt a Pet</h2>
+        <p>Click on a pet to view details:</p>
+        
+        <div class="pets">
+            <div class="pet-item" onclick="openPetDetails('image1')">
+                <img src="image1.jpg" alt="Labrador Retriever">
+                <p>Labrador Retriever</p>
+            </div>
+            <div class="pet-item" onclick="openPetDetails('image2')">
+                <img src="image2.jpg" alt="Persian Cat">
+                <p>Persian Cat</p>
+            </div>
+            <div class="pet-item" onclick="openPetDetails('image3')">
+                <img src="image3.jpg" alt="Macaw Parrot">
+                <p>Macaw Parrot</p>
+            </div>
+            <div class="pet-item" onclick="openPetDetails('image4')">
+                <img src="image4.jpg" alt="Himalayan Rabbit">
+                <p>Himalayan Rabbit</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pet Adoption Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
